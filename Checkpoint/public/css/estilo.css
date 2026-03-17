@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.geral {
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 70px;
+    color:  gold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.menu ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: gold;
+    border:#800080;
+    border-radius: 10px;
+}
+
+.menu ul li {
+    margin: 10px 15px;
+}
+
+.menu ul li a {
+    color:gold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    background-color: #800080;
+    color: gold;
+    border-radius: 5px;
+}
+
+.subtitulo {
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #800080;
+    padding-bottom: 5px;
+}
+
+.galeria {
+    margin: auto;
+    display: table;
+}
+
+.galeria img {
+    width: 150px;
+    height: auto;
+}
+
+.galeria img:hover {
+    transform:scale(1.2);
+}
+.QuemSomos {
+    background-color: black;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color:gold;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 0.9em;
+    color: gold;
+    margin-top: 40px;
+}
